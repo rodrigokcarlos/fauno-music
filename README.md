@@ -1,6 +1,6 @@
 # Fauno
 
-para utilizar o app de busca e playback basta logar na pagina index.html
+para utilizar o app de busca e playback basta logar(com e-mail e senhas fictícias) na pagina index.html
 
 Após iniciar recarregar a página para iniciar a extenção Axios no javascript
 
