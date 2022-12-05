@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fauno △</title>
+    <link rel="shortcut icon" href="./assets/logoFauno.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    
+  </head>
+  
+</html>
+<body onload="onPageLoad()">
+  <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a href="./index.html"><img id="logoFauno" src="./assets/logoFauno.png"  class="icone" alt=""></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./form.html">Cadastro</a>
+            </li>
+          </ul>
+          <form id="formu" class="d-flex">
+            <input id="inputEmail" class="form-control me-2 bg-dark text-white" type="email" placeholder="Login" aria-label="email">
+            <input id="inputSenha"class="form-control me-2 bg-dark text-white" type="password" placeholder="senha" aria-label="senha">
+            <button type="submit" id="botaoLogin" onclick="validaForm()">Login</button>
+            <a class="input text-white text-center" id="esqueceusenhaLogin" href="./RecupLogin.html">Esqueceu a senha?</a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <main class="d-inline-flex justify-content-evenly">
+      <div class="card" style="width: 22rem;">
+        <img src="./assets/Gaea plano.png" class="card-img-top" alt=""/>
+        <div class="card-body">
+          <h5 class="card-title text-center">Plano Gaea</h5>
+          <p class="card-text">R$299,90/ mês após o período da oferta 1 conta.</p>
+        </div>
+        <ul class="list-group list-group-light list-group-small d-flex p-2 justify-content-center">
+          <li class="list-group-item px-4 text-center bg-secondary">Ouça músicas sem anúncios</li>
+          <li class="list-group-item px-4 text-center bg-secondary">ouça em qualquer lugar até offline</li>
+          <li class="list-group-item px-4 text-center bg-secondary">audiostream</li>
+        </ul>
+        <div class="card-body d-flex p-2 justify-content-center">
+          <button class="text-center" id="botaoplano">Obter Plano</button>
+        </div>
+      </div>
+      <div class="card" style="width: 22rem;">
+        <img src="./assets/apollolira-removebg-preview.png" class="card-img-top" alt=""/>
+        <div class="card-body">
+          <h5 class="card-title text-center">Plano Apollo</h5>
+          <p class="card-text">R$399,90/ mês após o período da oferta  4 contas.</p>
+        </div>
+        <ul class="list-group list-group-light list-group-small d-flex p-2 justify-content-center">
+          <li class="list-group-item px-4 text-center bg-secondary">Ouça músicas sem anúncios</li>
+          <li class="list-group-item px-4 text-center bg-secondary">Qualidade de som superior</li>
+          <li class="list-group-item px-4 text-center bg-secondary">Organize sua playlist como quiser</li>
+          <li class="list-group-item px-4 text-center bg-secondary">Converse com seu artista</li>
+        </ul>
+        <div class="card-body d-inline-flex p-2 justify-content-center">
+          <button class="text-center" id="botaoplano" >Obter Plano</button>
+        </div>
+      </div>
+    </main>
+    <footer class="text-white text-center d-flex flex-column" >
+      <span>
+        FrontEnders copyright 2022
+      </span> 
+      <a class="nav-link text-white"  id="quemSomos" href="./equipe.html">Quem Somos</a>
+      <span>
+        <img id="imgFooter" src="./assets/Facebook.png" alt="facebook">
+        <img id="imgFooter" src="./assets/instagram.png" alt="instagram">
+        <img id="imgFooter" src="./assets/TikTok.png" alt="tiktok">
+        <img id="imgFooter" src="./assets/twitter.png" alt="twitter">
+      </span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./apps/fauno.js"></script>
+    <script src="./apps/enter.js"></script>
+    <script src="./apps/login.js"></script>
+</body>
+</html>
