@@ -1,4 +1,4 @@
-var redirect_uri = "https://rodrigokcarlos.github.io/Fauno-music/home.html";
+var redirect_uri = "https://rodrigokcarlos.github.io/fauno-music/home.html";
 // var redirect_uri = "http://localhost:5500/home.html";
 
 var client_id = "7a3d0d99a035445782307dfdb95a0a68"; 
